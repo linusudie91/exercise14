@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 14E</title>
+    <style>
+        .monkey {
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            justify-content: space-between;
+            align-items: center;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        .cat-bus {
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cat-image {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            object-fit: cover;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .oliver {
+            font-family: Arial;
+            font-weight: bold;
+            margin-left: 12px;
+        }
+
+        .add-message{
+            display: flex;
+            flex-direction: row;
+            font-family: Arial;
+            margin-right: 20px;
+        }
+
+        .add {
+            background-color: blue;
+            color: white;
+            font-size: 12px;
+            margin-right: 5px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-right: 5px;
+            padding-left: 5px;
+            border-radius: 6px;
+        }
+
+        .message{
+            background-color: rgb(111,111,111);
+            font-size: 12px;
+            justify-content: center;
+            align-items: center;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-right: 5px;
+            padding-left: 5px;
+            border-radius: 6px;
+        }
+
+        body {
+            height: 3000px;
+        }
+
+        .seashore {
+            position: fixed;
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="monkey">
+        <div class="cat-bus">
+            <div>
+                <img class="cat-image" src="cat.jpg" alt="cat image">
+            </div>
+            <div class="oliver">Oliver Cat</div>
+        </div>
+        <div class="add-message">
+            <div class="add">Add Friend</div>
+            <div class="message">Message</div>
+        </div>
+    </div>
+    <div class="seashore">
+        <a href="index.html">exercise 14A</a>
+        <a href="exercise14d.html">exercise 14D</a>
+        <a href="exercise14c.html">exercise 14C</a>
+        <a href="exercise14f.html">exercise 14F</a>
+    </div>
+</body>
+</html>

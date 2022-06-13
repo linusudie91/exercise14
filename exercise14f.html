@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 14F</title>
+    <style>
+        .big-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            width: 70px;
+            background-color: rgb(71, 67, 67);
+            justify-content: flex-start;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        .cat-file {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            object-fit: cover;
+            margin-top: 10px
+        }
+
+        .volume {
+            display: flex;
+            flex-direction: column;
+            margin-left: 62px;
+            padding-left: 8px;
+            background-color: rgb(148, 143, 143);
+            width: 100px;
+            font-family: Arial;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+        }
+
+        .man {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .into {
+            color: white;
+            font-size: 12px;
+        }
+
+        .plus {
+            color: rgb(194, 187, 187);
+        }
+
+        .new-videos {
+            color: rgb(194, 187, 187);
+            margin-bottom: 8px; 
+        }
+
+        .update {
+            color: rgb(194, 187, 187);
+            margin-bottom: 8px;
+        }
+
+        .fact {
+            color: rgb(194, 187, 187);
+        }
+
+        .woman {
+            margin-left: 200px;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="big-container">
+        <div class="content">
+            <div><img class="cat-file" src="cat.jpg" alt="cat image"></div>
+            <div><img class="cat-file" src="catb.jpg" alt="cat image"></div>
+            <div><img class="cat-file" src="catc.jpg" alt="cat image"></div>
+        </div>
+        <div class="volume">
+            <div class="man">
+                <div class="into">INFO</div>
+                <div class="plus">+</div>
+            </div>
+            <div class="new-videos"># new-videos</div>
+            <div class="update"># update</div>
+            <div class="fact"># faq</div>
+        </div>
+    </div>
+    <div class="woman">
+        <a href="index.html">exercise 14A</a>
+        <a href="exercise14c.html">exercise 14C</a>
+        <a href="exercise14d.html">exercise 14D</a>
+        <a href="exercise14e.html">exercise 14E</a>
+    </div>
+</body>
+</html>
